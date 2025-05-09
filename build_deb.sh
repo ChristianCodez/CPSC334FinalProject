@@ -24,5 +24,3 @@ chmod 0755 "$BUILD_DIR/usr/local/bin/${PKG_NAME}.py"
 
 # Build the package
 dpkg-deb --build "$BUILD_DIR"
-
-mv dataframe-v2.0.0.deb build/
