@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "DataFrame tool installed successfully."
+
+# Optionally make the script executable and create a symlink
+chmod +x /usr/local/bin/dataframe.py
+ln -sf /usr/local/bin/dataframe.py /usr/local/bin/dataframe

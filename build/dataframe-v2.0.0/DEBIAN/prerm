@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Preparing to remove the DataFrame tool..."
+# Clean up symlink if it exists
+rm -f /usr/local/bin/dataframe

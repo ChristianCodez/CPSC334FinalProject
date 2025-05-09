@@ -25,5 +25,4 @@ chmod 0755 "$BUILD_DIR/usr/local/bin/${PKG_NAME}.py"
 # Build the package
 dpkg-deb --build "$BUILD_DIR"
 
-# Move the resulting .deb package to project root
-mv "${BUILD_DIR}.deb" .
+mv dataframe-v2.0.0.deb build/
