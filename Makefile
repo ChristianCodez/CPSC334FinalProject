@@ -28,7 +28,7 @@ build:
 
 # installs dependencies
 install:
-	$(PIP) install -r requirements.txt || true
+	$(PIP) install -r requirements.txt
 
 # clean temp files
 clean:
