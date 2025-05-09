@@ -66,4 +66,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Install lintian
-        run: sudo apt-
+        run: sudo apt-get update && sudo apt-get install -y lintian
+      - name: Lint debian package
+        run: |
+          make lint-deb
